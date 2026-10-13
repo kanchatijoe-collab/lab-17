@@ -1,0 +1,60 @@
+ Which method is used in JSP to retrieve form data submitted via POST?
+JSP
+request.getAttribute()
+request.getParameter()
+response.getParameter()
+session.getAttribute()
+2. What is the default data type of values returned by `request.getParameter()`?
+JSP
+int
+double
+String
+Object
+3. Which attribute of the `<form>` tag specifies the target JSP file?
+HTML
+method
+action
+target
+name
+4. What will happen if you call `Integer.parseInt()` on an empty string?
+Java
+It returns 0
+It returns null
+It throws NumberFormatException
+It returns -1
+5. Which HTTP method would you use to avoid displaying form data in the URL?
+HTTP
+GET
+POST
+PUT
+DELETE
+6. In the provided JSP code, what does `<%= sum %>` do?
+JSP
+Declares a variable named sum
+Outputs the value of the variable sum
+Imports a class
+Defines a loop
+7. How can you handle non‑numeric input to avoid program crash?
+Java
+Use try-catch around parseInt()
+Use request.getIntParameter()
+Use parseInt with default value
+No handling needed
+8. What is the purpose of `num1Str.trim()` in the code?
+Java
+To convert to integer
+To remove leading/trailing spaces
+To check for null
+To compare strings
+9. Which JSP implicit object is used to send output to the browser?
+JSP
+request
+response
+out
+session
+10. If you want to allow decimal numbers (e.g., 3.5 + 2.1), which parsing method should you use?
+Java
+Integer.parseInt()
+Long.parseLong()
+Double.parseDouble()
+Float.parseFloat()
